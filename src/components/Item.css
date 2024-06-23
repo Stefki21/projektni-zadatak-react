@@ -1,0 +1,44 @@
+.actionButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editButton {
+    color: blueviolet;
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.deleteButton {
+    color: rgb(190, 13, 13);
+    background-color: transparent;
+}
+
+.stockText {
+    border-radius: 12px;
+    text-align: center;
+    width: 55%;
+    padding: 0.45rem 0;
+}
+
+.Available {
+    background-color: rgb(31, 177, 31);
+    color: rgb(6, 70, 6);
+}
+
+.NotAvailable {
+    background-color: red;
+}
+
+.Sale {
+    background-color: orange;
+}
+
+.idNumber {
+    text-align: center;
+}
+
+p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
